@@ -1,0 +1,19 @@
+project_id = "svebzthrtnvaehiacqjm"
+
+[functions.parse-resume]
+verify_jwt = false
+
+[functions.fetch-jobs]
+verify_jwt = false
+
+[functions.send-notification]
+verify_jwt = true
+
+[functions.check-deadlines]
+verify_jwt = false
+
+[functions.ai-interview]
+verify_jwt = false
+
+[functions.save-api-key]
+verify_jwt = true
